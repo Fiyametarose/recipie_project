@@ -143,6 +143,9 @@ body{
 body{
     background-color: red;
 }
+#image h1 {
+    font-size: medium;
+}
 #ingridients{
     
     display: grid;
@@ -152,5 +155,8 @@ body{
     
 
 grid-row-gap: 40px;
+}
+.total_steps{
+    display: block;
 }
 }
