@@ -1,7 +1,7 @@
 footer{
     margin-top: 150px;
 background-image: url(footer2.jpg);
-height: 350px;
+height: fit-content;
 }
 #footer_group{
 display: grid;
