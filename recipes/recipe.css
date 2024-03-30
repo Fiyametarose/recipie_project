@@ -112,6 +112,9 @@ body{
 
 
 @media screen and (max-width:1170px) {
+    body{
+        background-color: #706f6f;
+    }
 
 #recipe{
     display:block ;
