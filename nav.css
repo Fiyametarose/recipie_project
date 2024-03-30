@@ -111,6 +111,9 @@ nav a{
         margin-left: 15%;
         width: 35%;
     }
+    nav{
+        background-color: rgb(3, 29, 11);
+    }
 }
 @media screen and (max-width:520px){
     nav{
