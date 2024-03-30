@@ -53,3 +53,8 @@ color: lightgray;
 i {
     color: #ff9836;
 }
+@media screen and (max-width:760px) {
+    #footer_group{
+        display: block;
+    }
+}
