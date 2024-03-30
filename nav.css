@@ -120,7 +120,9 @@ nav a{
     }
 }
 @media screen and (max-width:480px){
-    
+    nav{
+        background-color: rgb(29, 19, 3);
+    }
     .menu{
         margin-left: 7%;
         width: 44%;         
