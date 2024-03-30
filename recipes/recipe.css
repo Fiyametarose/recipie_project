@@ -142,7 +142,7 @@ body{
 
 body{
     background-color: red;
-    overflow: hidden;
+    overflow-y: hidden;
 }
 #image h1 {
     font-size: 40px;
