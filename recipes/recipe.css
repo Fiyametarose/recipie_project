@@ -38,7 +38,7 @@ body{
 }
 .grid{
     background-color: rgb(240, 240, 240,0.6);
-    height:100px ;
+    height: auto;
     box-shadow: 0 0 5px rgba(0,0, 0, 0.3);
 }
 #ingridients h2{
