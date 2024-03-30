@@ -8,7 +8,7 @@ body{
 }
 #image{
     width: 40%;
-    margin-top: 35PX;
+    margin-top: 25PX;
     
 }
 #image img{
@@ -19,7 +19,7 @@ body{
 #image h1{
     color:black;
     margin-left: 5%;
-    font-size: 30px;
+    font-size: 50px;
     line-height: 0;
     margin-bottom: 40px;
 }
@@ -38,7 +38,7 @@ body{
 }
 .grid{
     background-color: rgb(240, 240, 240,0.6);
-    
+    height: 500px;
     box-shadow: 0 0 5px rgba(0,0, 0, 0.3);
 }
 #ingridients h2{
@@ -68,7 +68,7 @@ body{
     padding-right: 20px;
 
 }
-#table{
+#list{
     background-color:white ;
     z-index: 1;
     box-shadow: 0 0 5px rgba(0,0, 0, 0.2);
@@ -76,25 +76,24 @@ body{
     
     
 }
-table{
-    margin-left: 4%;
-    border-collapse: collapse;
- 
-}
-tr{
-    line-height: 3em;
-    border-bottom:1px solid #dbdbdb;
+#list ul{
+    display: grid; grid-template-columns: repeat(2,1fr);
+    margin-left: 0;
+    padding-left: 20px;
+    padding-right: 20px;
     
-   
+  
 }
-#table td.left{
-    text-align: left;
-}
-#table td.right{
-   
-    padding-left: 12em;
+#list ul li {
     font-weight: bold;
+   
+    line-height: 3.5em;
+    border-bottom:1px solid #dbdbdb;
+  
+
 }
+
+
 .total_steps{
     display: grid; 
     grid-template-columns: repeat(2,1fr);
@@ -111,22 +110,7 @@ tr{
     height: 350px;
 }
 
-@media screen and (max-width:1370px) {
 
-#table td.right{
-   
-   padding-left: 10em;
-   font-weight: bold;
-}
-}
-@media screen and (max-width:1270px) {
-
- #table td.right{
-    
-    padding-left: 9em;
-    font-weight: bold;
-}
-}
 @media screen and (max-width:1170px) {
 
 #recipe{
@@ -139,11 +123,6 @@ tr{
     margin-left: 5%;
     margin-right: 10%;
 }
-#table td.right{
-    
-    padding-left: 13em;
-    font-weight: bold;
-}
 #image {
     width: 70%;
     margin-left: 10%;
@@ -154,13 +133,6 @@ tr{
     margin-left: 5%;
 }
 
-}
-@media screen and (max-width:1100px) {
-
-.total_steps{
-    margin-left: 1%;
-    width: 98%;
-}
 }
 
 @media screen and (max-width:760px) {
@@ -175,13 +147,4 @@ tr{
 
 grid-row-gap: 40px;
 }
-#ingrudents div{
-    
-}
-#table td.right{
-    
-    padding-left: 15em;
-    font-weight: bold;
-}
-
 }
