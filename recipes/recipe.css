@@ -118,8 +118,8 @@ body{
 
 #recipe{
     display:block ;
+    margin-top: 100px;
     
-    margin-top: 50px;
 }
 #ingridients{
     width: 90%;
@@ -140,7 +140,9 @@ body{
 
 @media screen and (max-width:760px) {
 
-
+body{
+    background-color: red;
+}
 #ingridients{
     
     display: grid;
