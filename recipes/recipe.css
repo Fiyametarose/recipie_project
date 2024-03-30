@@ -142,7 +142,11 @@ body{
 
 body{
     background-color: red;
-    overflow-y: hidden;
+    overflow-x: hidden;
+}
+#image img{
+    margin-left:5%;
+    margin-right: 5%;
 }
 #image h1 {
     font-size: 40px;
