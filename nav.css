@@ -7,6 +7,7 @@ nav{
     top: 0;
     width: 100%;
     z-index: 1;
+    left: 0;
     
 }
 #logo{
@@ -63,16 +64,19 @@ nav a{
       padding-right: 0px;
         width: 33%;
         z-index: 1;
+       
     }
 
     .menu.active {
         display: block;
+        
     }
 
     .menu.active li {
         display: block;
         padding: 10px 0;
         background-color:#ff9638;
+        
         
         
       
@@ -94,8 +98,32 @@ nav a{
         background-color: #fba152;
     }   
 }
-@media screen and(max-width:500){
-    body{
-        background-color: #fba152;
+@media screen and (max-width:600px) {
+   
+    .menu.active a{
+        padding: 12px 18%;
+    }
+    .menu.active a.one{
+        padding: 12px 40%;
+        
+    }
+    .menu{
+        margin-left: 15%;
+        width: 35%;
     }
 }
+@media screen and (max-width:520px){
+    
+    .menu{
+        margin-left: 10%;
+        width: 40%;
+    }
+}
+@media screen and (max-width:480px){
+    
+    .menu{
+        margin-left: 8%;
+        width: 42%;
+    }
+}
+
