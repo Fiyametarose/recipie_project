@@ -94,3 +94,8 @@ nav a{
         background-color: #fba152;
     }   
 }
+@media screen and(max-width:500){
+    body{
+        background-color: #fba152;
+    }
+}
